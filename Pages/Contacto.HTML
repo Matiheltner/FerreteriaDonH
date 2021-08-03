@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <meta name="description" content="Somos una empresa ferretera oriunda en la provincia de Santa Fe preparada en la atencion al cliente para resolver dudas e inconvenientes"> 
+    <meta name="keywords" content="Ferreteria,Tornilleria,Sanitario,Pintureria,Electricidad,Herramientas,Bazar">
+  </head>
+<header>
+	<nav class="listaAtajos1">
+        <a class="botonContacto" href="Contacto.html">Contacto </a>
+        <a class="botonMarcas" href="Marcas.html">Marcas</a>
+        <a class="botonCatalogo" href="Catalogo.html">Catalogo</a>
+        <a class="botonEmpresa" href="Empresa.html">Empresa</a>
+        <a class="botonIngresar" href="Ingresar.html">Ingresar</a>
+        </nav>
+</header>
+<body>
+    <main>
+        <h1><a href="../index.html" class="title">Ferreteria Don H</a></h1>
+        <section class="listaRubros1"></section>
+                <ul class="listaRubros2">
+                        <li><a href="#">Herramientas </a></li>
+                        <li><a href="#">Ferreteria</a></li>	
+                        <li><a href="#">Tornilleria</a></li>
+                        <li><a href="#">Sanitario</a></li>
+                        <li><a href="#">Pintureria</a></li>
+                        <li><a href="#">Electricidad</a></li>
+                        <li><a href="Novedades.html">Novedades</a></li>
+                </ul>
+        </section>
+        </main>
+    <br>
+	<h2 class="titulo2">Contacto</h2>
+    <p>Estimado cliente,
+        Ponemos a su disposición un medio de contacto efectivo para comunicarse con el personal de nuestra empresa. Todos los mensajes serán derivados inmediatamente a sus destinatarios para poder brindarle una rápida respuesta.</p>
+    <form method="POST">
+        <input type="text" name="nombre" placeholder="Ingresar tu nombre" maxlenght=16>
+        <br>
+        <input type="text" email="e-mail" placeholder="Ingresar tu e-mail" maxlength="30">
+        <br>
+        <label for="Elija_su_genero">Elija su genero</label>
+        <select name="Sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+            <option value="NN">Prefiero no decirlo</option>
+        </select>
+        <br>
+        <label for="Cliente_frecuente">Es usted un cleinte frecuente?</label><input type="checkbox" name="cliente frecuente" value="Si">  
+        <br>
+        <input type="text" Mensaje="Mensaje" placeholder="¿En que podemos ayudarlo?" maxlength="450">
+        <br>
+        <input type="button" value="Enviar formulario"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+        <input type="reset" value="Limpiar formulario"/>
+    </form>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ferreteria Don H</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ¡Gracias por enviar su consulta! En breve nos comunicaremos
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="pieDePagina">	
+        <p class="Santa">Santa Fe Capital, Argentina</p>
+        <ul class="redsocial footer__links">
+            <li><a href="#"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="Red Social1" width="20px" height="20px"></a></li>
+            <li><a href="#"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" alt="Red Social2" width="20px" height="20px"></a></li>
+            <li><a href="#"><img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" alt="Red Social3" width="20px" height="20px"></a></li>
+        </ul>     
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

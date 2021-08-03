@@ -1,0 +1,262 @@
+*{   
+    margin:0;
+    padding:0;
+  }
+  $border: #292608ab 5px solid;
+  $margin-object: 20px;
+  $width-novedad:250px;
+  $height-novedad:250px;
+  :root{
+    background-color: #E5E5E5;
+  }
+
+  .title {
+    background-color: dimgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 85px;
+    color: #FFD300;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 0px; 
+    border-top:solid 5px yellow;
+    border-right: solid 5px dimgrey;
+    border-bottom: solid 5px yellow;
+    border-left: solid 5px dimgrey;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    display: inline;
+    margin-bottom: 10px;
+  }
+  .tituloA {
+    text-decoration: none;
+  }
+  .titulo2 {
+    color: #0f6cb2;
+    font-family: Barlow,sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    margin-left:  10px;
+  }
+  .listaAtajos1 {
+    background-color:#707070 ;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 10px;
+    color: #4A71A6;
+    margin-top: 0px;
+    margin-bottom: 22px;
+  }
+  .listaAtajos2 {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+  }
+  
+  a {
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border:ridge 1px  black;
+  } 
+  .listaRubros1 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+  
+  }
+  .listaRubros2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .tituloMapa {
+    color: #0f6cb2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px bold;
+    margin: 0;
+    margin-left: 38%;
+  }
+  .mapa1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 38%;
+  }
+  .videoExplicativo {
+  
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 42%;
+  }
+  .videito {
+    border:$border;
+  }
+  .NovedadImagenes {
+  display: flex;
+  flex-direction: row;
+  }
+  .NovedadesImagenes img{
+    border:$border;
+    margin-left:$margin-object;
+    width: $width-novedad;
+    height: $height-novedad;
+  }
+
+  .equipo {
+  display: grid;
+  justify-content: center;
+  width: 100vw ;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  }
+  .equipoTrabajo {
+    color: #4A71A6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+  }
+  .pieDePagina {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-image: linear-gradient(rgb(173, 173, 37),#707070);
+  }
+  .redsocial {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .santa {
+    margin-bottom: 10px;
+  }
+  .botonCatalogo {
+    transition: 2s;
+  }
+  .botonIngresar{
+    transition: 2s;
+  }
+  .botonContacto {
+    transition: 2s;
+  }
+  .botonMarcas {
+    transition: 2s;
+  }
+  .botonEmpresa {
+    transition: 2s;
+  }
+  
+  .botonContacto:hover {
+  background-color: yellowgreen;
+  }
+  .botonMarcas:hover {
+    background-color: yellowgreen;
+  }
+  .botonEmpresa:hover {
+    background-color: yellowgreen;
+  }
+  
+  .botonCatalogo:hover {
+    background-color: yellowgreen;
+  }
+  .botonIngresar:hover {
+    background-color: yellowgreen;
+  }
+  .card-group {
+    display: flex;
+  }
+  .card-group {
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+  .card-img-top {
+    margin-right: 40px;
+  }
+  .card {
+    max-width: 400px;
+  }
+  .card-text {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1e4479;
+  }
+  .card-title {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #122d88; ;
+  }
+  
+  
+  @media screen and (min-width: 320px) {
+    .equipo {
+      background-color:#E5E5E5 ;
+                   }
+    }
+  @media screen and (min-width: 768px)  {
+  .equipoTrabajo {
+    background-color: #E5E5E5 ;
+    border: 4px solid black;
+  }
+  }
+  @media screen and (min-width: 1024px)  {
+    .equipoTrabajo {
+      background-color: #E5E5E5 ;
+      border: 1px solid black;
+    }
+  }
+
+/* BEM Bloque de la sección Servicios*/
+
+.section{
+    background-color: #E5E5E5;
+    margin-left: 10px;
+}
+
+.sectioncolumn{
+    border: solid 1px rgb(4, 88, 185);
+}
+
+.sectioncolumn--itemDiscount{
+    background-color: rgb(4, 88, 185);
+}
+
+/* BEM Bloque Card*/
+
+.card{
+    opacity: 90%;
+    border:solid 10px;
+}
+
+.cardtext--yellow{
+    background-color: rgb(243, 166, 0);
+}
+
+.cardtext--blue{
+    background-color: blue;
+}
+
+/*BEM Bloque Footer*/
+
+.footer{
+    background-color: grey;
+}
+
+.footer__links{
+    display: flex;
+}
